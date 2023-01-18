@@ -10,10 +10,10 @@ namespace CryptoWidget.Controllers
     public class RateController : ControllerBase
     {
 
-        private readonly ILogger<WeatherForecastController> _logger;
+        private readonly ILogger<RateController> _logger;
         private readonly IRateService _rateService;
 
-        public RateController(ILogger<WeatherForecastController> logger, IRateService rateService)
+        public RateController(ILogger<RateController> logger, IRateService rateService)
         {
             _logger = logger;
             _rateService = rateService;
@@ -33,15 +33,15 @@ namespace CryptoWidget.Controllers
 
 
         [HttpPost]
-            public async Task<IActionResult> GetFiltered(List<string> requestedCurrencies)
+        public async Task<IActionResult> GetFiltered(List<string> requestedCurrencies)
+        {
+            var rates = await _rateService.GetFilteredRates(requestedCurrencies);
+            if (rates == null || rates.Count() == 0)
             {
-                var rates = await _rateService.GetFilteredRates(requestedCurrencies);
-                if (rates == null || rates.Count() == 0)
-                {
-                    return NotFound();
-                }
-
-                return Ok(rates);
+                return NotFound();
             }
+
+            return Ok(rates);
+        }
         }
 }

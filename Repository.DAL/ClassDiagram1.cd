@@ -1,0 +1,36 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="Repository.DAL.Models.RatesLog">
+    <Position X="9.25" Y="0.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAACAAAAAAAAAAAAAAAAAAAAAAgAAAAAAgAAAAAAAAA=</HashCode>
+      <FileName>Models\RatesLog.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsCollectionAssociation>
+      <Property Name="Rates" />
+    </ShowAsCollectionAssociation>
+  </Class>
+  <Class Name="Repository.DAL.Models.SingleRate">
+    <Position X="11" Y="2" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>QAAAAAAAAAAAAAAAIAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Models\SingleRate.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Repository.DAL.Repositories.RatesLogRepository" BaseTypeListCollapsed="true">
+    <Position X="6.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAEAAAAAAAAAAAgAAAAAAAAAAAQAAAAAEAAAAAAAKAA=</HashCode>
+      <FileName>Repositories\RatesLogRepository.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Interface Name="Repository.DAL.Interfaces.IRatesLogRepository">
+    <Position X="4.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAEAAAAAAAAAAAAAAAAAAAAAAAQAAAAAEAAAAAAAKAA=</HashCode>
+      <FileName>Interfaces\IRatesLogRepository.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>

@@ -1,13 +1,13 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio Version 17
-VisualStudioVersion = 17.3.32825.248
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.32510.428
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CryptoWidget", "CryptoWidget\CryptoWidget.csproj", "{1FABB9B5-FB0A-40AF-AB2A-F96FC37A837C}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Repository.DAL", "Repository.DAL\Repository.DAL.csproj", "{E04103FE-4B70-427B-8A31-88D6803D941F}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Repository.DAL", "Repository.DAL\Repository.DAL.csproj", "{E04103FE-4B70-427B-8A31-88D6803D941F}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CryptoWidget.BLL", "CryptoLogic.BLL\CryptoWidget.BLL.csproj", "{B06A577F-8658-4DCB-9E88-6DA7AE2B5CB1}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CryptoWidget.BLL", "CryptoLogic.BLL\CryptoWidget.BLL.csproj", "{B06A577F-8658-4DCB-9E88-6DA7AE2B5CB1}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

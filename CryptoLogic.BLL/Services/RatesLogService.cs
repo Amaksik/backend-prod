@@ -24,7 +24,6 @@ namespace CryptoWidget.BLL.Services
         }
         public async Task<RatesLog> Get(string id)
         {
-            string chislo = id;
             var ratelog = await _ratesLogRepository.GetByIdAsync(id);
             return ratelog;
         }
@@ -35,6 +34,10 @@ namespace CryptoWidget.BLL.Services
             await _ratesLogRepository.CreateNewRatesLogAsync(newRatesLog);
         }
 
+        public async void CreateNewRecord(List<SingleRate> rates)
+        {
+
+        }
         public async Task<bool> Put(RatesLog updateRatesLog)
         {
             var people = await _ratesLogRepository.GetByIdAsync(updateRatesLog.Id);
@@ -58,9 +61,13 @@ namespace CryptoWidget.BLL.Services
             return true;
         }
 
-        Task<List<SingleRate>> IRateRequestHandler.GetCurrentRates()
+        public async Task<List<SingleRate>> GetCurrentRates()
         {
-            throw new NotImplementedException();
+            var rates = await _ratesLogRepository.GetAllAsync();
+
+            var lastUpdated = rates.OrderByDescending(x => x.CreatedDate).First();
+
+            return lastUpdated.Rates;
         }
     }
 }

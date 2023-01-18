@@ -1,17 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "ZhhYfH0oLcVDMTRQg6TFvg/bfRJDAodAy6uFNV8gTz6dNH+Iu6qCQFhEdR7txO+IbbPYdwTxC7XT1DMuVoF9xA==",
+  "dgSpecHash": "rZYvzwxcqLy/Cubvo1C6vFP/0p7xV2MOSE7p7xtYLQ8bZt2QTxjkqgHhJb3mPTaXXSjGwnUrAnauqC9BW72gxA==",
   "success": true,
   "projectFilePath": "C:\\Users\\Anton Maksymenko\\source\\repos\\CryptoWidget\\Repository.DAL\\Repository.DAL.csproj",
-  "expectedPackageFiles": [
-    "C:\\Users\\Anton Maksymenko\\.nuget\\packages\\dnsclient\\1.4.0\\dnsclient.1.4.0.nupkg.sha512",
-    "C:\\Users\\Anton Maksymenko\\.nuget\\packages\\mongodb.bson\\2.14.1\\mongodb.bson.2.14.1.nupkg.sha512",
-    "C:\\Users\\Anton Maksymenko\\.nuget\\packages\\mongodb.driver\\2.14.1\\mongodb.driver.2.14.1.nupkg.sha512",
-    "C:\\Users\\Anton Maksymenko\\.nuget\\packages\\mongodb.driver.core\\2.14.1\\mongodb.driver.core.2.14.1.nupkg.sha512",
-    "C:\\Users\\Anton Maksymenko\\.nuget\\packages\\mongodb.libmongocrypt\\1.3.0\\mongodb.libmongocrypt.1.3.0.nupkg.sha512",
-    "C:\\Users\\Anton Maksymenko\\.nuget\\packages\\sharpcompress\\0.30.1\\sharpcompress.0.30.1.nupkg.sha512",
-    "C:\\Users\\Anton Maksymenko\\.nuget\\packages\\system.buffers\\4.5.1\\system.buffers.4.5.1.nupkg.sha512",
-    "C:\\Users\\Anton Maksymenko\\.nuget\\packages\\system.runtime.compilerservices.unsafe\\5.0.0\\system.runtime.compilerservices.unsafe.5.0.0.nupkg.sha512"
-  ],
+  "expectedPackageFiles": [],
   "logs": []
 }

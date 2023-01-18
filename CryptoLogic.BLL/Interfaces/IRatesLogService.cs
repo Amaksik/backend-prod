@@ -12,6 +12,7 @@ namespace CryptoWidget.BLL.Interfaces
         Task<RatesLog> Get(string id);
 
         void Post(RatesLog newRatesLog);
+        void CreateNewRecord(List<SingleRate> rates);
 
         Task<bool> Put(RatesLog updateRatesLog);
         Task<bool> Delete(string id);

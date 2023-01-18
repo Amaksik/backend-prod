@@ -12,9 +12,11 @@ namespace CryptoWidget.BLL.Services
     public class RateService : IRateService
     {
         private IRateRequestHandler _clientWrapper;
-        public RateService ( IRateRequestHandler clietWrapper)
+        private IRatesLogService _ratesLogService;
+        public RateService ( IRateRequestHandler clietWrapper, IRatesLogService ratesLogService)
         {
             _clientWrapper = clietWrapper;
+            _ratesLogService = ratesLogService;
         }
 
         public async Task<List<string>> GetAllowedNames()
@@ -27,6 +29,8 @@ namespace CryptoWidget.BLL.Services
         public async Task<List<SingleRate>> GetFilteredRates(List<string> requestedCurrencies)
         {
             var globalRates = await _clientWrapper.GetCurrentRates();
+
+            _ratesLogService.CreateNewRecord(globalRates);
 
             return globalRates
                                .Where(t => requestedCurrencies.Contains(t.CurrencyName))

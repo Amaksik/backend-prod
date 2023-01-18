@@ -1,0 +1,108 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="CryptoWidget.BLL.Models.Rates">
+    <Position X="8.5" Y="3" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>v27z1+68rey+e//9r5fNdjjnz//9u3eE69XjcqXp778=</HashCode>
+      <FileName>Models\Rates.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CryptoWidget.BLL.Services.ChartService" BaseTypeListCollapsed="true">
+    <Position X="2.25" Y="4.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAQAAAAAAAAAAAAAAAAAAAAAAAAAAACAAAA=</HashCode>
+      <FileName>Services\ChartService.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="CryptoWidget.BLL.Services.ClientWrapper" BaseTypeListCollapsed="true">
+    <Position X="11.5" Y="4" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAQAAQAAAAAAAAAAAAAAAAAQBAAAAAAAQAA=</HashCode>
+      <FileName>Services\ClientWrapper.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="CryptoWidget.BLL.Services.RateService" BaseTypeListCollapsed="true">
+    <Position X="5.75" Y="4.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAgAAAIAAAAAAAAAAAAgAAAAgAAAAAAA=</HashCode>
+      <FileName>Services\RateService.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.224" Collapsed="true" />
+  </Class>
+  <Class Name="CryptoWidget.BLL.Services.RatesLogService" BaseTypeListCollapsed="true">
+    <Position X="4" Y="4.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAQAAABAAAAAAAAACAEAAgAAAAACAAAAAAg=</HashCode>
+      <FileName>Services\RatesLogService.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="CryptoWidget.BLL.Services.UpdateService" Collapsed="true">
+    <Position X="8.5" Y="2" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Services\UpdateService.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CryptoWidget.BLL.ClientsConfiguration.CoinLayerSettings">
+    <Position X="15.75" Y="6.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAQAAAAAAAAAAAAAAAAgAAAAAAAAAAA=</HashCode>
+      <FileName>ClientsConfiguration\CoinLayerSettings.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CryptoWidget.BLL.Clients.CoinLayerClient" BaseTypeListCollapsed="true">
+    <Position X="15.75" Y="4" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAEAAAACAgAAAAAQAAAAAACAAAAAAAAA=</HashCode>
+      <FileName>Clients\CoinLayerClient.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="CryptoWidget.BLL.Clients.NomixClient" BaseTypeListCollapsed="true">
+    <Position X="14" Y="4" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAEAAAAAAgAAAAAQAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Clients\NomixClient.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Interface Name="CryptoWidget.BLL.Interfaces.IChartService">
+    <Position X="2.25" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACAAAA=</HashCode>
+      <FileName>Interfaces\IChartService.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="CryptoWidget.BLL.Interfaces.IRateRequest">
+    <Position X="14" Y="2" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAgAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Interfaces\IRateRequest.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="CryptoWidget.BLL.Interfaces.IRateRequestHandler">
+    <Position X="11.5" Y="2" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAQAA=</HashCode>
+      <FileName>Interfaces\IRateRequestHandler.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="CryptoWidget.BLL.Interfaces.IRateService">
+    <Position X="5.75" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAgAAAAgAAAAAAA=</HashCode>
+      <FileName>Interfaces\IRateService.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="CryptoWidget.BLL.Interfaces.IRatesLogService">
+    <Position X="4" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAABAAAAAAAAACAEAAgAAAAAAAAAAAAg=</HashCode>
+      <FileName>Interfaces\IRatesLogService.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>

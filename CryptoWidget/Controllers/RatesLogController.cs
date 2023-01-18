@@ -8,10 +8,10 @@ namespace CryptoWidget.Controllers
     [Route("[controller]")]
     public class RatesLogController : ControllerBase
     {
-        private readonly ILogger<WeatherForecastController> _logger;
+        private readonly ILogger<RatesLogController> _logger;
         private readonly IRatesLogRepository _ratesLogRepository;
 
-        public RatesLogController(ILogger<WeatherForecastController> logger, IRatesLogRepository ratesLogRepository)
+        public RatesLogController(ILogger<RatesLogController> logger, IRatesLogRepository ratesLogRepository)
         {
             _logger = logger;
             _ratesLogRepository = ratesLogRepository;

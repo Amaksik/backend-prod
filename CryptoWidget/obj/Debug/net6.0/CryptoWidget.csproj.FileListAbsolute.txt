@@ -48,3 +48,4 @@ C:\Users\Anton Maksymenko\source\repos\CryptoWidget\CryptoWidget\obj\Debug\net6.
 C:\Users\Anton Maksymenko\source\repos\CryptoWidget\CryptoWidget\bin\Debug\net6.0\Microsoft.Extensions.DependencyInjection.Abstractions.dll
 C:\Users\Anton Maksymenko\source\repos\CryptoWidget\CryptoWidget\bin\Debug\net6.0\Microsoft.Extensions.Options.dll
 C:\Users\Anton Maksymenko\source\repos\CryptoWidget\CryptoWidget\bin\Debug\net6.0\Microsoft.Extensions.Primitives.dll
+C:\Users\Anton Maksymenko\source\repos\CryptoWidget\CryptoWidget\bin\Debug\net6.0\QuickChart.dll
