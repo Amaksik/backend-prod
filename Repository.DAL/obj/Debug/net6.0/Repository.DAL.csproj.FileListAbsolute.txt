@@ -1,0 +1,12 @@
+C:\Users\Anton Maksymenko\source\repos\CryptoWidget\Repository.DAL\bin\Debug\net6.0\Repository.DAL.deps.json
+C:\Users\Anton Maksymenko\source\repos\CryptoWidget\Repository.DAL\bin\Debug\net6.0\Repository.DAL.dll
+C:\Users\Anton Maksymenko\source\repos\CryptoWidget\Repository.DAL\bin\Debug\net6.0\Repository.DAL.pdb
+C:\Users\Anton Maksymenko\source\repos\CryptoWidget\Repository.DAL\obj\Debug\net6.0\Repository.DAL.csproj.AssemblyReference.cache
+C:\Users\Anton Maksymenko\source\repos\CryptoWidget\Repository.DAL\obj\Debug\net6.0\Repository.DAL.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Anton Maksymenko\source\repos\CryptoWidget\Repository.DAL\obj\Debug\net6.0\Repository.DAL.AssemblyInfoInputs.cache
+C:\Users\Anton Maksymenko\source\repos\CryptoWidget\Repository.DAL\obj\Debug\net6.0\Repository.DAL.AssemblyInfo.cs
+C:\Users\Anton Maksymenko\source\repos\CryptoWidget\Repository.DAL\obj\Debug\net6.0\Repository.DAL.csproj.CoreCompileInputs.cache
+C:\Users\Anton Maksymenko\source\repos\CryptoWidget\Repository.DAL\obj\Debug\net6.0\Repository.DAL.dll
+C:\Users\Anton Maksymenko\source\repos\CryptoWidget\Repository.DAL\obj\Debug\net6.0\refint\Repository.DAL.dll
+C:\Users\Anton Maksymenko\source\repos\CryptoWidget\Repository.DAL\obj\Debug\net6.0\Repository.DAL.pdb
+C:\Users\Anton Maksymenko\source\repos\CryptoWidget\Repository.DAL\obj\Debug\net6.0\ref\Repository.DAL.dll

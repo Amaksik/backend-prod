@@ -1,0 +1,37 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.3.32825.248
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CryptoWidget", "CryptoWidget\CryptoWidget.csproj", "{1FABB9B5-FB0A-40AF-AB2A-F96FC37A837C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Repository.DAL", "Repository.DAL\Repository.DAL.csproj", "{E04103FE-4B70-427B-8A31-88D6803D941F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CryptoWidget.BLL", "CryptoLogic.BLL\CryptoWidget.BLL.csproj", "{B06A577F-8658-4DCB-9E88-6DA7AE2B5CB1}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{1FABB9B5-FB0A-40AF-AB2A-F96FC37A837C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1FABB9B5-FB0A-40AF-AB2A-F96FC37A837C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1FABB9B5-FB0A-40AF-AB2A-F96FC37A837C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1FABB9B5-FB0A-40AF-AB2A-F96FC37A837C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E04103FE-4B70-427B-8A31-88D6803D941F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E04103FE-4B70-427B-8A31-88D6803D941F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E04103FE-4B70-427B-8A31-88D6803D941F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E04103FE-4B70-427B-8A31-88D6803D941F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B06A577F-8658-4DCB-9E88-6DA7AE2B5CB1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B06A577F-8658-4DCB-9E88-6DA7AE2B5CB1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B06A577F-8658-4DCB-9E88-6DA7AE2B5CB1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B06A577F-8658-4DCB-9E88-6DA7AE2B5CB1}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {8B8FB6CB-CA01-4F28-944E-71BF4FF3BB28}
+	EndGlobalSection
+EndGlobal

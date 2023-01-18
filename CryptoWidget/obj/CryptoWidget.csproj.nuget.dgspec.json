@@ -1,0 +1,228 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\Users\\Anton Maksymenko\\source\\repos\\CryptoWidget\\CryptoWidget\\CryptoWidget.csproj": {}
+  },
+  "projects": {
+    "C:\\Users\\Anton Maksymenko\\source\\repos\\CryptoWidget\\CryptoLogic.BLL\\CryptoWidget.BLL.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\Anton Maksymenko\\source\\repos\\CryptoWidget\\CryptoLogic.BLL\\CryptoWidget.BLL.csproj",
+        "projectName": "CryptoWidget.BLL",
+        "projectPath": "C:\\Users\\Anton Maksymenko\\source\\repos\\CryptoWidget\\CryptoLogic.BLL\\CryptoWidget.BLL.csproj",
+        "packagesPath": "C:\\Users\\Anton Maksymenko\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Anton Maksymenko\\source\\repos\\CryptoWidget\\CryptoLogic.BLL\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\Anton Maksymenko\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files\\dotnet\\library-packs": {},
+          "https://api.nuget.org/v3/index.json": {},
+          "https://proget.yleo.us/nuget/nuget/": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {
+              "C:\\Users\\Anton Maksymenko\\source\\repos\\CryptoWidget\\Repository.DAL\\Repository.DAL.csproj": {
+                "projectPath": "C:\\Users\\Anton Maksymenko\\source\\repos\\CryptoWidget\\Repository.DAL\\Repository.DAL.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "Microsoft.Extensions.Options": {
+              "target": "Package",
+              "version": "[7.0.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.400\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\Anton Maksymenko\\source\\repos\\CryptoWidget\\CryptoWidget\\CryptoWidget.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\Anton Maksymenko\\source\\repos\\CryptoWidget\\CryptoWidget\\CryptoWidget.csproj",
+        "projectName": "CryptoWidget",
+        "projectPath": "C:\\Users\\Anton Maksymenko\\source\\repos\\CryptoWidget\\CryptoWidget\\CryptoWidget.csproj",
+        "packagesPath": "C:\\Users\\Anton Maksymenko\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Anton Maksymenko\\source\\repos\\CryptoWidget\\CryptoWidget\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\Anton Maksymenko\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files\\dotnet\\library-packs": {},
+          "https://api.nuget.org/v3/index.json": {},
+          "https://proget.yleo.us/nuget/nuget/": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {
+              "C:\\Users\\Anton Maksymenko\\source\\repos\\CryptoWidget\\CryptoLogic.BLL\\CryptoWidget.BLL.csproj": {
+                "projectPath": "C:\\Users\\Anton Maksymenko\\source\\repos\\CryptoWidget\\CryptoLogic.BLL\\CryptoWidget.BLL.csproj"
+              },
+              "C:\\Users\\Anton Maksymenko\\source\\repos\\CryptoWidget\\Repository.DAL\\Repository.DAL.csproj": {
+                "projectPath": "C:\\Users\\Anton Maksymenko\\source\\repos\\CryptoWidget\\Repository.DAL\\Repository.DAL.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "Microsoft.VisualStudio.Azure.Containers.Tools.Targets": {
+              "target": "Package",
+              "version": "[1.17.0, )"
+            },
+            "MongoDB.Driver": {
+              "target": "Package",
+              "version": "[2.14.1, )"
+            },
+            "Swashbuckle.AspNetCore": {
+              "target": "Package",
+              "version": "[6.2.3, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.400\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\Anton Maksymenko\\source\\repos\\CryptoWidget\\Repository.DAL\\Repository.DAL.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\Anton Maksymenko\\source\\repos\\CryptoWidget\\Repository.DAL\\Repository.DAL.csproj",
+        "projectName": "Repository.DAL",
+        "projectPath": "C:\\Users\\Anton Maksymenko\\source\\repos\\CryptoWidget\\Repository.DAL\\Repository.DAL.csproj",
+        "packagesPath": "C:\\Users\\Anton Maksymenko\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Anton Maksymenko\\source\\repos\\CryptoWidget\\Repository.DAL\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\Anton Maksymenko\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files\\dotnet\\library-packs": {},
+          "https://api.nuget.org/v3/index.json": {},
+          "https://proget.yleo.us/nuget/nuget/": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "MongoDB.Driver": {
+              "target": "Package",
+              "version": "[2.14.1, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.400\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

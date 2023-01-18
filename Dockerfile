@@ -1,17 +1,22 @@
-FROM mcr.microsoft.com/dotnet/sdk:6.0 AS build
-WORKDIR /source
+#See https://aka.ms/containerfastmode to understand how Visual Studio uses this Dockerfile to build your images for faster debugging.
 
-# copy csproj and restore as distinct layers
-COPY *.csproj .
-RUN dotnet restore
-
-# copy and publish app and libraries
-COPY . .
-RUN dotnet publish -c release -o /app --no-restore
-
-# final stage/image
-FROM mcr.microsoft.com/dotnet/sdk:6.0
+FROM mcr.microsoft.com/dotnet/aspnet:6.0 AS base
 WORKDIR /app
-COPY --from=build /app .
-USER 1000
-ENTRYPOINT ["dotnet", "dotnetapp.dll"]
+EXPOSE 80
+EXPOSE 443
+
+FROM mcr.microsoft.com/dotnet/sdk:6.0 AS build
+WORKDIR /src
+COPY ["CryptoWidget/CryptoWidget.csproj", "CryptoWidget/"]
+RUN dotnet restore "CryptoWidget/CryptoWidget.csproj"
+COPY . .
+WORKDIR "/src/CryptoWidget"
+RUN dotnet build "CryptoWidget.csproj" -c Release -o /app/build
+
+FROM build AS publish
+RUN dotnet publish "CryptoWidget.csproj" -c Release -o /app/publish /p:UseAppHost=false
+
+FROM base AS final
+WORKDIR /app
+COPY --from=publish /app/publish .
+ENTRYPOINT ["dotnet", "CryptoWidget.dll"]

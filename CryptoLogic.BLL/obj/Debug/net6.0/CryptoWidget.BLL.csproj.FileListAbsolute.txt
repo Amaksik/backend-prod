@@ -1,0 +1,15 @@
+C:\Users\Anton Maksymenko\source\repos\CryptoWidget\CryptoLogic.BLL\bin\Debug\net6.0\CryptoWidget.BLL.deps.json
+C:\Users\Anton Maksymenko\source\repos\CryptoWidget\CryptoLogic.BLL\bin\Debug\net6.0\CryptoWidget.BLL.dll
+C:\Users\Anton Maksymenko\source\repos\CryptoWidget\CryptoLogic.BLL\bin\Debug\net6.0\CryptoWidget.BLL.pdb
+C:\Users\Anton Maksymenko\source\repos\CryptoWidget\CryptoLogic.BLL\obj\Debug\net6.0\CryptoWidget.BLL.csproj.AssemblyReference.cache
+C:\Users\Anton Maksymenko\source\repos\CryptoWidget\CryptoLogic.BLL\obj\Debug\net6.0\CryptoWidget.BLL.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Anton Maksymenko\source\repos\CryptoWidget\CryptoLogic.BLL\obj\Debug\net6.0\CryptoWidget.BLL.AssemblyInfoInputs.cache
+C:\Users\Anton Maksymenko\source\repos\CryptoWidget\CryptoLogic.BLL\obj\Debug\net6.0\CryptoWidget.BLL.AssemblyInfo.cs
+C:\Users\Anton Maksymenko\source\repos\CryptoWidget\CryptoLogic.BLL\obj\Debug\net6.0\CryptoWidget.BLL.csproj.CoreCompileInputs.cache
+C:\Users\Anton Maksymenko\source\repos\CryptoWidget\CryptoLogic.BLL\obj\Debug\net6.0\CryptoWidget.BLL.dll
+C:\Users\Anton Maksymenko\source\repos\CryptoWidget\CryptoLogic.BLL\obj\Debug\net6.0\refint\CryptoWidget.BLL.dll
+C:\Users\Anton Maksymenko\source\repos\CryptoWidget\CryptoLogic.BLL\obj\Debug\net6.0\CryptoWidget.BLL.pdb
+C:\Users\Anton Maksymenko\source\repos\CryptoWidget\CryptoLogic.BLL\obj\Debug\net6.0\ref\CryptoWidget.BLL.dll
+C:\Users\Anton Maksymenko\source\repos\CryptoWidget\CryptoLogic.BLL\bin\Debug\net6.0\Repository.DAL.dll
+C:\Users\Anton Maksymenko\source\repos\CryptoWidget\CryptoLogic.BLL\bin\Debug\net6.0\Repository.DAL.pdb
+C:\Users\Anton Maksymenko\source\repos\CryptoWidget\CryptoLogic.BLL\obj\Debug\net6.0\CryptoWidget.BLL.csproj.CopyComplete
